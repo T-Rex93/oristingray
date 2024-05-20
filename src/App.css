@@ -1,0 +1,51 @@
+.content{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20%;
+}
+
+.content-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+  height: 100vh;
+  margin-top: 20vh;
+}
+
+.content-right img{
+  display: flex;
+  height: 80%;
+}
+
+.content-left{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  width: 40%;
+  margin-top: 70px;
+  height: 40vh;
+}
+
+.home-page{
+  height: 100vh;
+  display: flex;
+  background-repeat: round;
+  flex-direction: column;
+  background-size: contain;
+  justify-content: center;
+  background-image: url(../src/files/Stingray1.jpg);
+}
+
+.home-page p{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+.home-page-landing-plate{
+  background-color:antiquewhite;
+  opacity: 0.6;
+}
